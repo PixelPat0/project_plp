@@ -11,7 +11,7 @@ Prerequisites
 •	Bootstrap 5.1 or higher
 •	JavaScript enabled in your web browser
 Installation
-1.	Clone the repository: https://github.com/PixelPat0/plp_project.git
+1.	Clone the repository: https://github.com/PixelPat0/project_plp.git
 2.	Navigate to the project directory: cd ByteTrainZM
 3.	Install the required packages: pip install -r requirements.txt
 Running the Application
