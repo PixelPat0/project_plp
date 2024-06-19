@@ -1,0 +1,99 @@
+/* Footer */
+.footer {
+    width: 100%;
+    background: #1f1f1f;
+    padding: 50px 0;
+    position: relative; /* Add relative positioning */
+}
+
+.footer_logo a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    line-height: 0.75;
+}
+
+.footer_description p {
+    color: #FFFFFF;
+}
+
+.footer_list_container {
+    position:absolute; 
+	right: 60px;/* Align content to the right */
+	bottom: 80px;
+	padding: 20px;
+	color: #FFFFFF;
+	padding: 20px;
+	
+}
+
+.footer_list {
+	color: #FFFFFF;
+	
+}
+
+.footer_list_container .footer_list {
+    list-style: none; /* Remove bullet points */
+    
+    padding: 10px; /* Add padding for better appearance */
+}
+
+.footer_section h4 {
+    color: #FFFFFF;
+}
+
+.footer_section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_list_container ul li {
+    
+	color: #FFFFFF;
+}
+
+.footer_section ul li a {
+    color: #FFFFFF;
+}
+
+.footer_social {
+    position: absolute; /* Keep absolute positioning */
+    bottom: 0%; /* Position at the vertical center */
+    left: 50%; /* Position at the horizontal center */
+    transform: translate(-50%, -50%); /* Center the element */
+}
+
+.footer_social ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer_social ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer_social ul li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.footer_social ul li i {
+    color: #8f8f8f;
+    font-size: 24px;
+}
+
+.footer_social ul li:hover i {
+    color: #3b5999;
+}
+
+
+.copyright {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.1);
+    margin-top: 40px;
+}

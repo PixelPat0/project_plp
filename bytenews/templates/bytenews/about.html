@@ -1,0 +1,41 @@
+{% extends 'bytenews/base.html' %}
+
+{% block content %}
+	
+
+	{% if title %}
+			<title>{{ title }}</title>
+		{% else %}
+			<title>ByteTrain</title>
+		{% endif %}
+
+		<div class="wrapper">
+			<div class="container3">
+			  <!-- Content for container3 -->
+			  <p>ByteTrain is more than just a tech blog - it's community of thinkers, innovators, and storytellers who are shaping the future of Zambia and beyond. ...</p>
+			  <p>Whether you have a story idea, want to collaborate with us, or simply have a question or comment, we'd love to hear from you! ...</p>
+			</div>
+			<article class="blog-post">
+			  <!-- Content for blog-post -->
+			  <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
+			  <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+			  <p>This is some additional paragraph placeholder content. ...</p>
+			  <ul>
+				<li>First list item</li>
+				<li>Second list item with a longer description</li>
+				<li>Third list item to close it out</li>
+			  </ul>
+			  <p>This is some additional paragraph placeholder content. ...</p>
+			</article>
+		  </div>
+
+{% endblock %}
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/masonry/masonry.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/contact.js"></script>

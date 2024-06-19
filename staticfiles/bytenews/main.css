@@ -1,0 +1,164 @@
+/* stylelint-disable @stylistic/selector-list-comma-newline-after */
+
+/* main.css code */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.advertisement {
+  /* Add a background color */
+  background-color: #f7f7f7;
+
+  /* Add padding for some breathing space */
+  padding: 0;
+
+  /* Center the text horizontally */
+  text-align: center;
+
+  /* Add margin to separate from the nav and content */
+  margin: 20px 0;
+
+  /* Make the image fill the whole width */
+  width: 100vw;
+
+  /* Make the image height auto to maintain aspect ratio */
+  height: auto;
+
+  /* Make the image display as a block element */
+  display: block;
+
+  /* Remove the border */
+  border: none;
+
+  /* Remove the box shadow */
+  box-shadow: none;
+}
+
+.advertisement img {
+  /* Make the image fill the whole width */
+  width: 80%;
+
+  /* Make the image height auto to maintain aspect ratio */
+  height: 60px;
+
+  /* Remove the margin */
+  margin: 0;
+}
+
+footer {
+  background-color: #F5F5DC;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  color: #666;
+}
+footer a {
+  color: #337ab7;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #23527c;
+}
+
+/* Second container */
+.container2 {
+  background-color: #F5F5DC;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  color: #666;
+
+  margin: 0 auto; /* add margin to center the container */
+}
+
+.wrapper {
+  display: flex; /* Make the wrapper a flex container */
+
+  justify-content: space-between; /* Align the container to the left */
+  margin-bottom: 40px; /* Add space between the wrapper and the footer */
+}
+
+.container3 {
+  /* Add some space around the container */
+  margin-left: 40px; /* Add space between the container and the left side of the page */
+  padding: 20px;
+
+  /* Center the text horizontally */
+  text-align: left;
+
+  /* Set the background color to a light gray */
+  background-color: #F5F5DC;
+
+  /* Add a thin border at the top */
+  border: 1px solid #ccc;
+
+  /* Make the text slightly larger and dark */
+  font-size: 1.2em;
+  color: #333; /* Dark gray color */
+
+  /* Set the maximum width and make it centered */
+  max-width: 600px; /* Adjust the value to your liking */
+}
+
+
+
+header {
+  background-color: #F5F5DC;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  color: #666;
+}
+
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 2.25rem;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  }
+  
+  .flex-auto {
+    flex: 0 0 auto;
+  }
+  
+  .h-250 { height: 250px; }
+  @media (min-width: 768px) {
+    .h-md-250 { height: 250px; }
+  }
+  
+  /* Pagination */
+  .blog-pagination {
+    margin-bottom: 4rem;
+  }
+  
+  /*
+   * Blog posts
+   */
+  .blog-post {
+    margin-bottom: 4rem;
+    border: 10px;
+  }
+  .blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #727272;
+    
+  }
+
+  
+
+  
