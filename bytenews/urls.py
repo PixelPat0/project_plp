@@ -16,6 +16,13 @@ urlpatterns = [
     path('profile/', user_views.profile, name="profile"),
     path('login/', user_views.login, name="login"),
     path('logout/', user_views.logout, name="logout"),
+
+
+    #post code
+    path('post/create/', views.post_create_view, name='post_create'),
+    path('post/delete/<pk>/', views.post_delete_view, name='post_delete'),
+    path('posts/', views.post_list_view, name='post_list'),
+    path('posts/', views.post_list_view, name='post_list'),
 ]
 
 if settings.DEBUG:

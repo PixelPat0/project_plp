@@ -1,0 +1,14 @@
+<!-- post_list.html -->
+
+<h1>Post List</h1>
+
+<ul>
+    {% for post in posts %}
+        <li>
+            {{ post.title }} ({{ post.pk }})
+            <a href="{% url 'post_delete' post.pk %}">Delete</a>
+        </li>
+    {% empty %}
+        <li>No posts yet.</li>
+    {% endfor %}
+</ul>

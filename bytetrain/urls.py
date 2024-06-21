@@ -19,6 +19,7 @@ from django.urls import path, include
 from users import views as user_views
 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('bytenews.urls', namespace='bytenews')),

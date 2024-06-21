@@ -12,13 +12,13 @@
         <h1>Login</h1>
         <form method="post">
           {% csrf_token %}
-          <label for="username">Username:</label>
-          <input type="text" name="username" required>
+          <label for="username" class="form-label">Username:</label>
+          <input type="text" name="username" required class="form-input">
 
-          <label for="password">Password:</label>
-          <input type="password" name="password" required>
+          <label for="password" class="form-label">Password:</label>
+          <input type="password" name="password" required class="form-input">
 
-          <button class="btn" type="submit">Login</button>
+          <button class="btn-submit" type="submit">Login</button>
         </form>
         <small>Not a member? <a href="{% url 'bytenews:register' %}">Sign Up</a></small>
       </div>
